@@ -29,7 +29,7 @@ items:
   kind: Deployment
   metadata:
     annotations:
-      kompose.service.type: LoadBalancer
+      kompose.service.type: NodePort
     creationTimestamp: null
     name: jenkins
   spec:
