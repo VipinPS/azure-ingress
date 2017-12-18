@@ -8,11 +8,11 @@ metadata:
 spec:
   tls:
   - hosts:
-    - demo.example.com
-    - www.demo.eynet.tk
+    - demo.example.com # EDIT DOMAIN NAME
+    - www.demo.example.com # EDIT DOMAIN NAME
     secretName: tls-secret
   rules:
-    - host: demo.example.com
+    - host: demo.example.com # EDIT DOMAIN NAME
       http:
         paths:
           - path: /
