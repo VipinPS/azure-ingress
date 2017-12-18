@@ -52,7 +52,7 @@ items:
           resources: {}
           volumeMounts:
           - mountPath: /var/jenkins_home
-            name: jenkins-jenkins-data
+            name: pvc001
         restartPolicy: Always
         volumes:
         - name: jenkins-jenkins-data
